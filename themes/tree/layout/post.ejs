@@ -1,3 +1,4 @@
+<div id='md-content'>
 <h1 id="article-title">
 <%
 	var pageTitle = '';
@@ -78,7 +79,7 @@
 <% if (theme.valine.enableComment){ %>
 	<div id="vcomments"></div>
 <% } %>
-
+  </div>
 <script>
 	<% if (theme.valine.enableComment){ %>
 		// 评论
@@ -128,4 +129,5 @@
 			showTime(Counter);
 		});
 	<% } %>
+
 </script>

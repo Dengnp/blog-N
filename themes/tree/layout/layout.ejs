@@ -8,9 +8,12 @@
 	<%- partial('_partial/sidebar.ejs') %>
 
 	<!-- 引入正文 -->
+  <div id='content-box'>
+  <canvas id="universe" width="1313" height="937"></canvas>
 	<div id="content">
 		<%- body %>
 	</div>
+  </div>
 	<%- partial('_partial/footer.ejs') %>
 	<%- partial('_partial/totop') %>
 </body>
